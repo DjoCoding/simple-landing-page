@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    width: 100%;
+    max-width: 969px;
+}
+
+.image {
+    width: 301px;
+    height: 206px;
+    position: relative;
+    top: -75px;
+    transition: 0.3s all ease;
+    cursor: pointer;
+}
+
+.image:hover {
+    scale: 110%;
+}
+
+.text {
+    font-family: var(--main-font);
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 47px;
+    letter-spacing: 0;
+    text-align: center;
+    color: #494444;
+}

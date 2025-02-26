@@ -1,0 +1,26 @@
+.hero {
+    background-image: url("https://s3-alpha-sig.figma.com/img/6bbc/cc64/5d968522edbd5725d1c609db904c767b?Expires=1741564800&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=S9LMvh6uJL-WebK2djqeZ3bQzTW09Iyv58BusUZ6xtan~SzDaWKNAenKsx4TKB3pWq4WXGsxOAvIcuNc84a29tQgiBGzzwrfVw3i8rNMr2Lc57D0MBNr6N-iozMpceAQg7cDjhJILvgh63N53UjpEXqxO9x0tAacIouF4~R1QcfSIwg~qh4bUTNwpk~2wj0b3EFIitmb7c42OYQJHs1I26VV2CX~tXG~MSwaOaQrX7uzdzvEz-SWNiUTeh5cLyubCoZE~oKN0S~hbnCm1HlzUnwC2NwSm0ddKsLWfTjCuEqNs2o6O4q0s6gqc5LzLMc~PO6InRUISeaiVp2eKtJWGA__");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100lvh;
+    display: flex;
+    padding: 50px;
+    position: relative;
+}
+
+.heroOverlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.37);
+}
+
+.container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    z-index: 2;
+}

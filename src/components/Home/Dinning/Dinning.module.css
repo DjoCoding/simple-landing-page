@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100lvh;
+}
+
+.container > div {
+    width: 100%;
+    max-width: 1276px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

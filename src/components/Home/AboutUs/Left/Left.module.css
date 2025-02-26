@@ -1,0 +1,20 @@
+.container {
+    flex-direction: column;
+    gap: 20px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: white;
+    font-family: var(--main-font);
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0;
+}
+
+.item svg {
+    width: 36px;
+}

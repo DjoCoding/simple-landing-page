@@ -1,0 +1,96 @@
+.container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.innerContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.headline {
+    font-family: var(--main-font);
+    font-weight: 700;
+    font-size: 76px;
+    line-height: 94.24px;
+    letter-spacing: 0;
+    text-align: center;
+    text-transform: capitalize;
+    color: white;
+    width: 60%;
+}
+
+.subHeadline {
+    font-family: var(--main-font);
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29.76px;
+    letter-spacing: 0;
+    text-align: center;
+    color: white;
+    width: 60%;
+}
+
+.call {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.button {
+    color: black;
+    background-color: white;
+    font-family: var(--main-font);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24.8px;
+    letter-spacing: 0;
+    text-transform: capitalize;
+    padding: 19px 32px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.button:hover {
+    color: white;
+    background-color: black;
+    scale: 105%;
+}
+
+.button:focus {
+    scale: 95%;
+}
+
+.more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    color: white;
+    background-color: transparent;
+    font-family: var(--main-font);
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24.8px;
+    letter-spacing: 0;
+    text-transform: capitalize;
+    padding: 19px 32px;
+    border: none;
+    cursor: pointer;
+    svg {
+        width: 30px;
+        transition: all 0.3s ease;
+    }
+}
+
+.more:hover svg {
+    translate: 10px;
+}

@@ -1,0 +1,19 @@
+.container {
+    height: 100lvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.innerContainer {
+    width: 100%;
+    max-width: 1500px;
+    height: 60lvh;
+    display: flex;
+}
+
+.feedbackContainer {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}

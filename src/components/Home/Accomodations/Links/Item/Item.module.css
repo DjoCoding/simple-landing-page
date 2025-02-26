@@ -1,0 +1,70 @@
+.container {
+    flex: 1;
+    height: 90lvh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container:hover .containerOverlay {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.containerOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    transition: all 0.5s ease;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+    z-index: 3;
+
+    h2 {
+        font-family: var(--main-font);
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 60px;
+        letter-spacing: 0;
+        color: white;
+        text-transform: capitalize;
+    }
+
+    button {
+        padding: 24px 48px;
+        color: #F4F0E5;
+        background-color: transparent;
+        border: 2px solid #F4F0E5;
+        border-radius: 8px;
+        font-family: var(--main-font);
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 40px;
+        letter-spacing: 0;
+        text-transform: capitalize;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+}
+
+.content button:hover {
+    background-color: white;
+    color: #707070;
+    scale: 105%;
+}
+
+.content button:focus {
+    scale: 95%;
+}
