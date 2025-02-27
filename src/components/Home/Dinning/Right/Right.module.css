@@ -8,11 +8,17 @@
 .text {
     font-family: var(--main-font);
     font-weight: 700;
-    font-size: 41.33px;
+    font-size: 1.5rem;
     line-height: 51.25px;
     letter-spacing: 0;
     color: #494444;
     text-transform: capitalize;
+}
+
+@media (max-width: 11000px) {
+    .text  {
+        font-size: 1.2rem;
+    }
 }
 
 .list {
@@ -24,7 +30,7 @@
 }
 
 .list > li > p {
-    font-size: 27.55px;
+    font-size: 0.8em;
     font-weight: 400;
     line-height: 34.17px;
     letter-spacing: 0;

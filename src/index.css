@@ -3,6 +3,7 @@
 :root {
   --primary: #F4F0E5;
   --main-font:  "Libre Baskerville", sans-serif;
+  font-size: 30px;
 }
 
 .libre-baskerville-regular {
@@ -35,7 +36,12 @@ a {
   margin: 0;
 }
 
+
 html {
   scroll-behavior: smooth;
   background-color: var(--primary);
+}
+
+html, body {
+  width: 100%;
 }
